@@ -1,10 +1,4 @@
-class HelloWorld
-
-    def say_hello
-        "Hello World!"
-    end
-
-end
+load 'hello_world.rb'
 
 describe HelloWorld do 
     context "When testing the HelloWorld class" do
